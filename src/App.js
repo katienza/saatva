@@ -50,13 +50,13 @@ const App = () => {
     getData();
   }, []);
 
-  const handleChange = event => {
+  const handleChange = (event) => {
     let value = event.target.value;
     setCurrent(event.target.value);
     setProductRating(products[value].reviewRating);
   };
 
-  const handleClick = event => {
+  const handleClick = (event) => {
     setCartCount(cartCount + 1);
     event.preventDefault();
   };
@@ -67,27 +67,33 @@ const App = () => {
       <Container maxWidth='lg' className='main-container'>
         <AppBar position='fixed' className='header'>
           <Container maxWidth='lg'>
-            <div className='header-content'>
-              <Header cartCount={cartCount} />
-            </div>
+            <Header cartCount={cartCount} />
           </Container>
         </AppBar>
 
         <Grid container spacing={4}>
           <Grid item xs={12} md={7}>
             <ProductImages current={current} products={products} />
-            <ProductRating products={products} current={current} productRating={productRating} />
+            <ProductRating
+              products={products}
+              current={current}
+              productRating={productRating}
+            />
           </Grid>
           <Grid item xs={12} md={5}>
             <h1>Choose Your Mattress</h1>
             <form>
-              <Products products={products} current={current} handleChange={handleChange} />
+              <Products
+                products={products}
+                current={current}
+                handleChange={handleChange}
+              />
               <ProductDetails products={products} current={current} />
               <Button
                 data-testid='addToCart'
                 variant='contained'
                 type='submit'
-                onClick={event => handleClick(event)}
+                onClick={(event) => handleClick(event)}
                 fullWidth
               >
                 Add to Cart
