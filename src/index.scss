@@ -1,0 +1,50 @@
+h1 {
+  font-size: 24px;
+}
+
+img {
+  width: 100%;
+}
+
+.main-container {
+  padding: 70px 0;
+}
+
+.header {
+  background-color: #ffffff !important;
+
+  .cart-container {
+    position: relative;
+    top: 3px;
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+  }
+
+  .cart-count {
+    position: absolute;
+    top: -4px;
+    right: -6px;
+    display: block;
+    background-color: #c19678;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    padding: 1px 5px;
+    font-size: 10px;
+    color: #ffffff;
+  }
+}
+
+.header-content {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (min-width: 1025px) {
+  h1 {
+    font-size: 36px;
+  }
+}
