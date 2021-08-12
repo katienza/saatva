@@ -5,10 +5,11 @@
 August 11, 2021
 
 # Desktop Screenshot
-<img width="1680" alt="Screen Shot 2021-08-11 at 7 49 34 PM" src="https://user-images.githubusercontent.com/39304572/129140861-7cae0949-db13-498a-8446-4c16633e4745.png">
+<img width="1678" alt="Screen Shot 2021-08-11 at 10 05 56 PM" src="https://user-images.githubusercontent.com/39304572/129141078-7e863118-0c79-4d23-8727-5817e2c011cf.png">
 
 # Mobile Screenshot
-<img width="332" alt="Screen Shot 2021-08-11 at 7 49 49 PM" src="https://user-images.githubusercontent.com/39304572/129140891-5a2a87c8-8a5f-4961-b834-7d13014cd864.png">
+<img width="339" alt="Screen Shot 2021-08-11 at 10 06 13 PM" src="https://user-images.githubusercontent.com/39304572/129141088-50a43f39-fdd0-445f-bd57-465e9c940bc7.png">
+
 
 # Running Locally
 
