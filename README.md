@@ -4,6 +4,12 @@
 
 August 11, 2021
 
+# Desktop Screenshot
+<img width="1680" alt="Screen Shot 2021-08-11 at 7 49 34 PM" src="https://user-images.githubusercontent.com/39304572/129140861-7cae0949-db13-498a-8446-4c16633e4745.png">
+
+# Mobile Screenshot
+<img width="332" alt="Screen Shot 2021-08-11 at 7 49 49 PM" src="https://user-images.githubusercontent.com/39304572/129140891-5a2a87c8-8a5f-4961-b834-7d13014cd864.png">
+
 # Running Locally
 
 1. Clone repository
